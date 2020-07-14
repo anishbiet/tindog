@@ -1,0 +1,133 @@
+/* title */
+#title {
+  background-color: #ff4c68;
+}
+
+.brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+.main-text {
+  font-size: 3.5rem;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+  padding-bottom: 30px;
+}
+
+.nav-item {
+  margin: 20px;
+}
+.img1 {
+  width: 50%;
+  transform: rotate(25deg);
+}
+
+@media screen and (max-width:1020px) {
+  .img1 {
+    transform: rotate(0);
+    padding-top: 10px;
+  }
+  .title{
+    text-align:center;
+  }
+  .card{
+    margin:10px;
+  }
+
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h3 {
+  font-family: 'Merriweather-bold', serif;
+  font-size: 2rem;
+  color:#fff;
+  line-height: 20px;
+}
+.f-heading{
+  color:#000;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Merriweather-bold', serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin-top: 30px;
+  padding: 40px 15px 20px;
+  width: 150px;
+}
+
+.carousel-inner {
+  padding: 7% 15%;
+}
+
+/* press */
+#press {
+  padding: 3% 15%;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.press-img {
+  width: 250px;
+  padding: 10px;
+}
+
+/* id="pricing */
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+  color: #000;
+}
+.card-head{
+  background-color:#000;
+}
+/* cta */
+#cta{
+  padding: 3% 15%;
+  background-color:#ff4c68;
+  text-align: center;
+}
+/* footer */
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 15%;
+}
+.footer-icon{
+  margin: 20px;
+}
